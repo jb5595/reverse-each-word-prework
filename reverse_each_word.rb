@@ -7,7 +7,7 @@ def reverse_each_word(string)
     letters.each do |letter|
       reverse_word.unshift(letter)
     end
-    reverse.push(reverse_word)
+    reverse.push(reverse_word.join)
   end
 reverse
   
