@@ -8,9 +8,7 @@ def reverse_each_word(string)
       reverse_word.unshift(letter)
     end
     reverse.push(reverse_word)
-    
-    
   end
-
+reverse
   
 end 
